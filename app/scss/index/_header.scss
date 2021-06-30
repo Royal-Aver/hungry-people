@@ -1,5 +1,43 @@
+.header {
+	background-color: #000;
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 25px;
+	}
+}
+
+.menu {
+	&__list {
+		display: flex;
+		padding: 15px 45px 37px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	}
+
+	&__item {
+		margin-right: 90px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	&__link {
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 12px;
+		line-height: 18 / 12 * 100%;
+		transition: color 0.5s;
+
+		&:hover {
+			color: $accent-color;
+		}
+	}
+}
+
 .logo__img {
-	width: 60px;
-	height: 63px;
+	width: 150px;
+	height: 150px;
 	object-fit: cover;
 }

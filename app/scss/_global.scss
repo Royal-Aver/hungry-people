@@ -1,5 +1,13 @@
+body {
+	font-family: "OpenSans";
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24 / 14 * 100%;
+	color: $white-color;
+}
+
 .container {
-	max-width: 1200px;
+	max-width: 1310px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
