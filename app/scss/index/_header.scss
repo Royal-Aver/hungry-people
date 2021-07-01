@@ -1,5 +1,7 @@
 .header {
-	background-color: #000;
+	position: fixed;
+	left: 0;
+	right: 0;
 
 	&__inner {
 		display: flex;
