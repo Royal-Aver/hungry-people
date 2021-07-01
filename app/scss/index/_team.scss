@@ -1,0 +1,33 @@
+.team {
+	padding: 35px 0 100px;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	&__title {
+		margin-bottom: 35px;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 14 / 12 * 100%;
+		letter-spacing: 0.5em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__content {
+		order: 2;
+	}
+
+	&__name {
+		display: block;
+	}
+
+	&__img-inner {
+		order: 1;
+	}
+}

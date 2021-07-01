@@ -54,12 +54,21 @@ body {
 		border: 20px solid $accent-color;
 		filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
 	}
+
+	&--padding-left {
+		padding-left: 120px;
+
+		&:after {
+			left: 0;
+		}
+	}
 }
 
 .img {
 	width: 475px;
 	height: 475px;
 	object-fit: cover;
+	filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.5));
 }
 
 .sr-only {
