@@ -1,0 +1,9 @@
+.about {
+	padding: 100px 0;
+	color: $black-color;
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+}

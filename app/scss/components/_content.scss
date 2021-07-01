@@ -1,0 +1,17 @@
+.content {
+	padding: 120px 0;
+	max-width: 600px;
+	text-align: center;
+
+	&--margin {
+		margin-right: 80px;
+	}
+
+	&__subtitle {
+		display: block;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 28 / 18 * 100%;
+		margin-bottom: 10px;
+	}
+}
