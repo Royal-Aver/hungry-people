@@ -79,25 +79,10 @@
 	}
 
 	&__link {
-		display: inline;
-		font-size: 12px;
-		line-height: 20 / 12 * 100%;
-		text-transform: uppercase;
 		width: 200px;
-		height: 60px;
-		border: 1px solid rgba(255, 255, 255, 0.5);
-		border-radius: 5px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		transition: background-color 0.5s;
 
 		&:first-child {
 			margin-right: 40px;
-		}
-
-		&:hover {
-			background-color: $accent-color;
 		}
 	}
 

@@ -3,6 +3,10 @@
 	max-width: 600px;
 	text-align: center;
 
+	&--padding {
+		padding: 60px 0 0;
+	}
+
 	&__subtitle {
 		display: block;
 		font-weight: 700;

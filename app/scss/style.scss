@@ -1,6 +1,7 @@
 @import "vars";
 @import "fonts";
 @import "reset";
+@import "libs";
 @import "global";
 @import "mixins";
 
@@ -8,5 +9,6 @@
 @import "index/top";
 @import "index/about";
 @import "index/team";
+@import "index/booking";
 
 @import "components/content";
